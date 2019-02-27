@@ -1,0 +1,12 @@
+---
+# zerodowntime.selinux_tools/tasks/main.yml
+
+- name: selinux_tools | install packages
+  become: true
+  package:
+    name: "{{ selinux_tools__packages }}"
+    state: "{{ selinux_tools__package_state }}"
+  when: ansible_os_family == 'RedHat'
+  tags:
+    - selinux_tools
+    - selinux_tools::install

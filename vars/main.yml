@@ -1,0 +1,9 @@
+---
+# zerodowntime.selinux_tools/vars/main.yml
+
+# selinux_tools__packages: []
+# system packages list names
+selinux_tools__packages:
+  - setroubleshoot-server
+  - setroubleshoot-plugins
+  - setools-console

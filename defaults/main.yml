@@ -1,0 +1,6 @@
+---
+# zerodowntime.selinux_tools/defaults/main.yml
+
+# selinux_tools__package_state: string [present|latest]
+# (required) package state
+selinux_tools__package_state: present
