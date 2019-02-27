@@ -1,6 +1,6 @@
 # selinux_tools
 
-Ansible role to set system environments
+nsible role to install selinux auditing tools
 
 ## Installation
 
@@ -34,7 +34,7 @@ Supported platforms:
 
 | Variable name           | Type | Description                                                 |
 |:----------------------- |:----:|:----------------------------------------------------------- |
-| selinux_tools__packages | list | system packages list names to install selinux selinux_tools | 
+| selinux_tools__packages | list | system packages list names to install selinux selinux_tools |
 
 **All static variables are described in [vars/main.yml](vars/main.yml) file.**
 
